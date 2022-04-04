@@ -11,6 +11,9 @@
 		407CE9B127FA605500E4C87C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407CE9B027FA605500E4C87C /* ContentView.swift */; };
 		407CE9B327FA605700E4C87C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407CE9B227FA605700E4C87C /* Assets.xcassets */; };
 		407CE9B627FA605700E4C87C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407CE9B527FA605700E4C87C /* Preview Assets.xcassets */; };
+		407CE9BF27FA615B00E4C87C /* quran.json in Resources */ = {isa = PBXBuildFile; fileRef = 407CE9BE27FA615B00E4C87C /* quran.json */; };
+		407CE9C127FA617E00E4C87C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407CE9C027FA617E00E4C87C /* ViewModel.swift */; };
+		407CE9C327FA618D00E4C87C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407CE9C227FA618D00E4C87C /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		407CE9B027FA605500E4C87C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		407CE9B227FA605700E4C87C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		407CE9B527FA605700E4C87C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		407CE9BE27FA615B00E4C87C /* quran.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quran.json; sourceTree = "<group>"; };
+		407CE9C027FA617E00E4C87C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		407CE9C227FA618D00E4C87C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				407CE9AE27FA605500E4C87C /* QuranTestApp.swift */,
 				407CE9B027FA605500E4C87C /* ContentView.swift */,
+				407CE9C027FA617E00E4C87C /* ViewModel.swift */,
+				407CE9C227FA618D00E4C87C /* Model.swift */,
+				407CE9BE27FA615B00E4C87C /* quran.json */,
 				407CE9B227FA605700E4C87C /* Assets.xcassets */,
 				407CE9B427FA605700E4C87C /* Preview Content */,
 			);
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407CE9BF27FA615B00E4C87C /* quran.json in Resources */,
 				407CE9B627FA605700E4C87C /* Preview Assets.xcassets in Resources */,
 				407CE9B327FA605700E4C87C /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				407CE9B127FA605500E4C87C /* ContentView.swift in Sources */,
+				407CE9C127FA617E00E4C87C /* ViewModel.swift in Sources */,
 				407CE9AF27FA605500E4C87C /* QuranTestApp.swift in Sources */,
+				407CE9C327FA618D00E4C87C /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
